@@ -1,0 +1,1 @@
+[2024-11-14 09:14:40] [fallback_cache::fallback_cache_add_define_cache_wp_config] Constant WP_CACHE does not exists. I will try to add in into wp-config.php

@@ -1,0 +1,18 @@
+[13-Nov-2024 04:20:57 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 7648
+[13-Nov-2024 04:20:57 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 7649
+[13-Nov-2024 04:20:57 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 7653
+[13-Nov-2024 04:20:57 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 7908
+[13-Nov-2024 04:20:57 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\theme.php on line 3644
+[13-Nov-2024 04:20:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\theme.php on line 3870
+[13-Nov-2024 04:20:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 5579
+[13-Nov-2024 04:20:58 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 5579
+[13-Nov-2024 04:20:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-includes\post.php on line 4880
+[13-Nov-2024 04:20:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\xampp\htdocs\wordpress\wp-content\plugins\supersonic\inc\actions.php on line 453
+[13-Nov-2024 04:20:58 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "post_content" on null in C:\xampp\htdocs\wordpress\wp-admin\includes\post.php:808
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\dashboard.php(556): get_default_post_to_edit('post', true)
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\template.php(1456): wp_dashboard_quick_press('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\dashboard.php(274): do_meta_boxes(Object(WP_Screen), 'side', '')
+#3 C:\xampp\htdocs\wordpress\wp-admin\index.php(204): wp_dashboard()
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\post.php on line 808
